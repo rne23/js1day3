@@ -16,7 +16,6 @@ function printNameAndColor(name, color) {
     var str = 'Your name is ' + name + ' and your favorite color is ' + color +
     '.';
     alert(str)
-    askForNameAndColor();
   } else {
     alert('Your name is ' + name + `. However, you did not enter an acceptable
 color! Remember, the possible options are: red, orange, yellow, green, blue,
